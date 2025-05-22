@@ -1,4 +1,9 @@
 # SST2-bert-kserve
-  Fine-tuning a BERT model using PyTorch on the Stanford Sentiment Treebank (SST-2) dataset for binary sentiment classification. Includes model training, evaluation, and REST API deployment setup using FastAPI and Docker, with Kubernetes/KServe deployment.
+  
+🎯 What This Project Does
 
+Fine-tunes BERT on the Stanford Sentiment Treebank (SST-2) dataset
+Packages the model in a Docker container with a Flask API
+Deploys to Kubernetes with auto-scaling and load balancing
+Serves via KServe for advanced ML serving capabilities
 
